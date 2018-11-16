@@ -13,23 +13,19 @@ p.centered{
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
-
-}
-#navigation{
-  width:100%;
-  display:block;
-  float:left;
 }
 .nav{
-  display: block;
-  float: left;
-  width:100%;
-  background-color: red;
   text-align: center;
   padding:10px;
 }
-
-
+.navButtons {
+font-size:14pt;
+list-style-type: none;
+float: left;
+width: 50%;
+background-color: red;
+padding-bottom: 10px;
+}
 #banner{
   border-radius: 5px;
   width:100%;
@@ -42,9 +38,8 @@ p.centered{
 }
 h2{
     align-content:center;
-    color: #000000
+    color: #000000;
 }
-
 .grid-robot{
     display: grid;
     grid-gap: 10px;
@@ -71,11 +66,14 @@ h2{
   color: #ffffff;
   align-content: center;
 }
-
-.navButtons {
-display:block;
-float: left;
-width: 24%;
+.contact-reasons{
+  padding:10px;
+}
+.reasons{
+  list-style-type: none;
+  padding:5px;
+  font-size: 20px;
+  background-color: white;
 }
 
 @media only screen and (max-width:600px){
@@ -85,7 +83,6 @@ width: 24%;
   .grid-robot{
     float:left;
     grid-template-columns: 100%;
-
   }
 
 }
